@@ -4,143 +4,157 @@
 
 This dataset is a summary subset of a larger "Human Activity Recognition database built from the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors".[[1]](#1)
 
+###Variables in the dataset
 
+**subject** (integer)
 
-fBodyAcc_mean_X
+An identifying integer (1-6) for the subject of the test.
 
-fBodyAcc_mean_Y
+**activity_label** (factor)
 
-fBodyAcc_mean_Z
+A factor variable identifying the possible activity states of the experiment particpants. The factor levels and labels are:
+```
+1 WALKING
+2 WALKING_UPSTAIRS
+3 WALKING_DOWNSTAIRS
+4 SITTING
+5 STANDING
+6 LAYING
+```
 
-fBodyAcc_std_X
+**fBodyAcc_mean_X** (numeric)
+**fBodyAcc_mean_Y** (numeric)
+**fBodyAcc_mean_Z** (numeric)
 
-fBodyAcc_std_Y
 
-fBodyAcc_std_Z
 
-fBodyAccJerk_mean_X
+**fBodyAcc_std_X** (numeric)
 
-fBodyAccJerk_mean_Y
+**fBodyAcc_std_Y** (numeric)
 
-fBodyAccJerk_mean_Z
+**fBodyAcc_std_Z** (numeric)
 
-fBodyAccJerk_std_X
+**fBodyAccJerk_mean_X** (numeric)
 
-fBodyAccJerk_std_Y
+**fBodyAccJerk_mean_Y** (numeric)
 
-fBodyAccJerk_std_Z
+**fBodyAccJerk_mean_Z** (numeric)
 
-fBodyAccJerkMag_mean
+**fBodyAccJerk_std_X** (numeric)
 
-fBodyAccJerkMag_std
+**fBodyAccJerk_std_Y** (numeric)
 
-fBodyAccMag_mean
+**fBodyAccJerk_std_Z** (numeric)
 
-fBodyAccMag_std
+**fBodyAccJerkMag_mean** (numeric)
 
-fBodyGyro_mean_X
+**fBodyAccJerkMag_std** (numeric)
 
-fBodyGyro_mean_Y
+**fBodyAccMag_mean** (numeric)
 
-fBodyGyro_mean_Z
+**fBodyAccMag_std** (numeric)
 
-fBodyGyro_std_X
+**fBodyGyro_mean_X** (numeric)
 
-fBodyGyro_std_Y
+**fBodyGyro_mean_Y** (numeric)
 
-fBodyGyro_std_Z
+**fBodyGyro_mean_Z** (numeric)
 
-fBodyGyroJerkMag_mean
+**fBodyGyro_std_X** (numeric)
 
-fBodyGyroJerkMag_std
+**fBodyGyro_std_Y** (numeric)
 
-fBodyGyroMag_mean
+**fBodyGyro_std_Z** (numeric)
 
-fBodyGyroMag_std
+**fBodyGyroJerkMag_mean** (numeric)
 
-tBodyAcc_mean_X
+**fBodyGyroJerkMag_std** (numeric)
 
-tBodyAcc_mean_Y
+**fBodyGyroMag_mean** (numeric)
 
-tBodyAcc_mean_Z
+**fBodyGyroMag_std** (numeric)
 
-tBodyAcc_std_X
+**tBodyAcc_mean_X** (numeric)
 
-tBodyAcc_std_Y
+**tBodyAcc_mean_Y** (numeric)
 
-tBodyAcc_std_Z
+**tBodyAcc_mean_Z** (numeric)
 
-tBodyAccJerk_mean_X
+**tBodyAcc_std_X** (numeric)
 
-tBodyAccJerk_mean_Y
+**tBodyAcc_std_Y** (numeric)
 
-tBodyAccJerk_mean_Z
+**tBodyAcc_std_Z** (numeric)
 
-tBodyAccJerk_std_X
+**tBodyAccJerk_mean_X** (numeric)
 
-tBodyAccJerk_std_Y
+**tBodyAccJerk_mean_Y** (numeric)
 
-tBodyAccJerk_std_Z
+**tBodyAccJerk_mean_Z** (numeric)
 
-tBodyAccJerkMag_mean
+**tBodyAccJerk_std_X** (numeric)
 
-tBodyAccJerkMag_std
+**tBodyAccJerk_std_Y** (numeric)
 
-tBodyAccMag_mean
+**tBodyAccJerk_std_Z** (numeric)
 
-tBodyAccMag_std
+**tBodyAccJerkMag_mean** (numeric)
 
-tBodyGyro_mean_X
+**tBodyAccJerkMag_std** (numeric)
 
-tBodyGyro_mean_Y
+**tBodyAccMag_mean** (numeric)
 
-tBodyGyro_mean_Z
+**tBodyAccMag_std** (numeric)
 
-tBodyGyro_std_X
+**tBodyGyro_mean_X** (numeric)
 
-tBodyGyro_std_Y
+**tBodyGyro_mean_Y** (numeric)
 
-tBodyGyro_std_Z
+**tBodyGyro_mean_Z** (numeric)
 
-tBodyGyroJerk_mean_X
+**tBodyGyro_std_X** (numeric)
 
-tBodyGyroJerk_mean_Y
+**tBodyGyro_std_Y** (numeric)
 
-tBodyGyroJerk_mean_Z
+**tBodyGyro_std_Z** (numeric)
 
-tBodyGyroJerk_std_X
+**tBodyGyroJerk_mean_X** (numeric)
 
-tBodyGyroJerk_std_Y
+**tBodyGyroJerk_mean_Y** (numeric)
 
-tBodyGyroJerk_std_Z
+**tBodyGyroJerk_mean_Z** (numeric)
 
-tBodyGyroJerkMag_mean
+**tBodyGyroJerk_std_X** (numeric)
 
-tBodyGyroJerkMag_std
+**tBodyGyroJerk_std_Y** (numeric)
 
-tBodyGyroMag_mean
+**tBodyGyroJerk_std_Z** (numeric)
 
-tBodyGyroMag_std
+**tBodyGyroJerkMag_mean** (numeric)
 
-tGravityAcc_mean_X
+**tBodyGyroJerkMag_std** (numeric)
 
-tGravityAcc_mean_Y
+**tBodyGyroMag_mean** (numeric)
 
-tGravityAcc_mean_Z
+**tBodyGyroMag_std** (numeric)
 
-tGravityAcc_std_X
+**tGravityAcc_mean_X** (numeric)
 
-tGravityAcc_std_Y
+**tGravityAcc_mean_Y** (numeric)
 
-tGravityAcc_std_Z
+**tGravityAcc_mean_Z** (numeric)
 
-tGravityAccMag_mean
+**tGravityAcc_std_X** (numeric)
 
-tGravityAccMag_std
+**tGravityAcc_std_Y** (numeric)
 
+**tGravityAcc_std_Z** (numeric)
 
+**tGravityAccMag_mean** (numeric)
 
+**tGravityAccMag_std** (numeric)
 
+###References
 
 <a name="1"></a>
 
