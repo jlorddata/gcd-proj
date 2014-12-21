@@ -3,8 +3,8 @@
 #download.file(dataURL, "Dataset.zip", mode="wb")
 
 #unzip the downloaded file and change into new directory
-library(utils)
-unzip("Dataset.zip")
+#library(utils)
+#unzip("Dataset.zip")
 setwd(paste(getwd(),"\\UCI HAR Dataset", sep=""))
 
 #read in activity labels and features
